@@ -1,0 +1,37 @@
+#football{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card{
+  margin: 25px;
+}
+
+.card-body{
+  background-color: lightgray;
+}
+
+#btnPicks{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.btn{
+  margin: 10px;
+}
+
+.teams{
+  margin: 25px;
+  border-radius: 25px;
+}
+
+#afcTeams,#nfcTeams,#playoffs,#allTeams{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
